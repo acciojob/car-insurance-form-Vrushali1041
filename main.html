@@ -7,6 +7,38 @@
 </head>
 
 <body>
+	<main class="container">
+	<form action="active">
+		<label for="name">Name</label>
+		<input type="text" name="name" id="name" placeholder="Enter your  name" required>
+		<br>
+		<label for="email">Email</label>
+		<input type="email" name="email" id="email" placeholder="Enter your email" required>
+		<br>
+		<label for="password">Password</label>
+		<input type="password" name="pass" id="password" required>
+		<br>
+		<label for="car">Car Brands</label>
+		<select name="car" id="caes" required>
+		    <option value="BMW">BMW</option>
+		    <option value="Audi">Audi</option>
+		    <option value="Mercedez">Mercedez</option>
+	    </select><br>
+		<label for="carege">Car Age</label>
+		<input type="number" name="car age" id="carage" required>
+		<br>
+		<label for="dop">Date of Purchase</label>
+		<input type="date" name="dop" id="dop" required>
+		<br>
+		<label for="gender">Gender :</label>
+		<input type="radio" name="gender" value="male" required>
+		<label for="male">Male</label>
+		<input type="radio" name="gender" value="female"required>
+		<label for="male">Female</label>
+		<br>
+		<input type="submit" value="Submit">
+	</form>
+</main>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
